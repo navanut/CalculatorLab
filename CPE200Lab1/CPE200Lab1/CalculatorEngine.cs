@@ -128,6 +128,7 @@ namespace CPE200Lab1
                         remainLength = maxOutputSize - parts[0].Length - 1;
                         // trim the fractional part gracefully. =
                         return result.ToString("N" + remainLength);
+
                     }
                     break;
                 case "%":
