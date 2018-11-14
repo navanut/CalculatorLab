@@ -54,6 +54,7 @@ namespace CPE200Lab1
             isSpaceAllowed = true;
         }
 
+
         private void btnBinaryOperator_Click(object sender, EventArgs e)
         {
             if (lblDisplay.Text is "Error")
