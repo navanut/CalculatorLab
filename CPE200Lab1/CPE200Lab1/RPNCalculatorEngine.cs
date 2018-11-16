@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CPE200Lab1
 {
-    public class RPNCalculatorEngine : New_CalculatorEngine
+    public class RPNCalculatorEngine : CalculatorEngine
     {
         private bool isNumberPart = false;
         private bool isContainDot = false;
